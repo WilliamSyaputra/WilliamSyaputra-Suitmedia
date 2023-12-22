@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo"
+        android:layout_gravity="center"
+        android:layout_margin="110dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Name"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="70px"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/et_name"
+        android:background="@drawable/rounded_edittext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Palindrome"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="70px"
+        android:id="@+id/et_palindrome"
+        android:background="@drawable/rounded_edittext"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="CHECK"
+        android:id="@+id/btn_check"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2B637B"
+        android:layout_marginHorizontal="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="NEXT"
+        android:id="@+id/btn_next"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2B637B"
+        android:layout_marginHorizontal="30dp"/>
+
+</LinearLayout>
